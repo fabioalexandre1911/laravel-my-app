@@ -23,18 +23,18 @@ $ php atisan serve
 TABELAS
 Cria uma migration de tabela de alunos
 
-# Criando a tabela de alunos
+# Criando a tabela inscritos
 $ php artisan make:migration create_alunos_table
 Cria um model para tabela de alunos
 
-$ php artisan make:model Alunos
+$ php artisan make:model inscritos
 Verifica os status das migrations
 
 $ php artisan migrate:status
 Criando as tabelas no banco de dados
 
 $ php artisan migrate
-Criando o controller de Alunos
+Criando o controller de Inscritos
 
-$ php artisan make:controller AlunosController --resource
+$ php artisan make:controller InscritoController --resource
 
